@@ -1,1 +1,11 @@
-
+class Student {
+private:
+int grade;
+public:
+int getGrade() {
+return grade;
+}
+void setGrade(int A) {
+grade = A;
+}
+};
