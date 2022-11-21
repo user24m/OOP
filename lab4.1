@@ -1,0 +1,47 @@
+class Person {
+private:
+int age;
+string name;
+public: 
+Person(string name = "John", int age = 0) {
+this->age = note;
+this->name = name;
+}
+void setAge(int n) {
+this->age = n;
+}
+int getAge() {
+return this->age;
+}
+string getName() {
+return this->name;
+}
+void setName(string name) {
+this->name = name;
+}
+};
+class GroupofFriends {
+private:
+list<Friends*> FriendsList;
+public:
+void addFriends(StuFriendsdent* friendsToAdd) {
+this->friendsList.push_back(friendsToAdd);
+}
+list<friendsList*> getFriendList() {
+return this->FriendList;
+}
+void displayFriendsInGroup() {
+for (Friends*friend : this->friendsList) {
+cout << friend->getName() << friend->getAge() << endl;
+}
+}
+};
+int main()
+{
+FriendGroup *friendGroup;
+friendGroup = new FriendsGroup();
+friendGroup->addFriend(new Friend());
+friendGroup->addFriend(new Friend("John", 10));
+friendGroup->addFriend(new Friend("Tommy", 16));
+friendGroup->displayFriendInGroup();
+return 0;
