@@ -1,1 +1,13 @@
+void solve214()
+{
+        cout << endl << "T2.14" << endl;
+        try
+        {
+            cout << Solution is: "<< solveEcuation(4, 47)" <<endl;
 
+        }
+        catch (string e)
+        {
+            cout << "Exception; " << e << endl;
+        }
+}
